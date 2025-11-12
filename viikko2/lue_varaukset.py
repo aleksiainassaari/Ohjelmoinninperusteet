@@ -53,3 +53,36 @@ print("Maksettu: Kyllä")
 print("Kohde: Kokoustila A")
 print("Puhelin: 0401234567")
 print("Sähköposti: anna.virtanen@example.com")
+
+tuntimaara = 2
+tuntihinta = 19.95
+kokonaishinta = tuntimaara * tuntihinta
+print(f"Kokonaishinta: {kokonaishinta:.2f} €")
+maksettu = True  # tai False
+print(f"Maksettu: {'Kyllä' if maksettu else 'Ei'}")
+hinta = 19.95
+suomalainen_muoto = f"{hinta:.2f}".replace(".", ",")
+print(suomalainen_muoto)
+tuntimaara = 2
+aloitusaika = 10.00
+loppumisaika = aloitusaika + tuntimaara
+print(f"Loppumisaika: {loppumisaika:.2f}")
+
+print("Varausnumero: 124")
+print("Varaaja: Aleksi Ainassaari")
+print("Päivämäärä: 31.10.2025")
+print("Aloitusaika: 12.00")
+print("Tuntimäärä: 2")
+print("Tuntihinta: 19.95 €")
+print("Kokonaishinta: 39.9 €")
+print("Maksettu: Kyllä")
+print("Kohde: Kokoustila A")
+print("Puhelin: 044254888")
+print("Sähköposti: Aleksi.Ainassaari@example.com")
+tuntimaara = 2
+aloitusaika = 12.00
+loppumisaika = aloitusaika + tuntimaara
+print(f"Loppumisaika: {loppumisaika:.2f}")
+hinta = 19.95
+suomalainen_muoto = f"{hinta:.2f}".replace(".", ",")
+print(suomalainen_muoto)
