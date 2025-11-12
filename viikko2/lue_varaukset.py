@@ -42,3 +42,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+print("Varausnumero: 123")
+print("Varaaja: Anna Virtanen")
+print("Päivämäärä: 31.10.2025")
+print("Aloitusaika: 10.00")
+print("Tuntimäärä: 2")
+print("Tuntihinta: 19.95 €")
+print("Kokonaishinta: 39.9 €")
+print("Maksettu: Kyllä")
+print("Kohde: Kokoustila A")
+print("Puhelin: 0401234567")
+print("Sähköposti: anna.virtanen@example.com")
