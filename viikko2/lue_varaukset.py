@@ -86,3 +86,4 @@ print(f"Loppumisaika: {loppumisaika:.2f}")
 hinta = 19.95
 suomalainen_muoto = f"{hinta:.2f}".replace(".", ",")
 print(suomalainen_muoto)
+
