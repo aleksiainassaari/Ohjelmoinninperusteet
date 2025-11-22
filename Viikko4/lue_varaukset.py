@@ -22,6 +22,10 @@ int | str | str | str | date | time | int | float | bool | str | datetime
 from datetime import datetime
 
 def muunna_varaustiedot(varaus: list) -> list:
+    #print(varaus)
+    #return [int(varaus[0]), varaus[1], varaus[2], varaus[3], datetime.strptime(varaus[4], "%Y-%m-%d").date(),
+    #       datetime.strptime(varaus[5], "%H:%M").time(), int(varaus[6]), float(varaus[7]), 
+    #       varaus[8].lower() == "true", varaus[9], datetime.strptime(varaus[10], "%Y-%m-%d %H:%M:%S")]
     
 
 
@@ -43,6 +47,8 @@ def muunna_varaustiedot(varaus: list) -> list:
    
 
 def hae_varaukset(varaustiedosto: str) -> list:
+    
+
     # HUOM! Tälle funktioille ei tarvitse tehdä mitään!
     # Jos muutat, kommentoi miksi muutit
     varaukset = []
