@@ -1,0 +1,6 @@
+---------------------------------------------
+Raportti kuulta: Heinäkuu 
+- Kokonaiskulutus: 253,72 kWh
+- Kokonaistuotanto: 602,53 kWh
+- Keskilämpötila: 0,84 °C
+---------------------------------------------
