@@ -1,4 +1,5 @@
-
+# Copyright (c) 2025 Aleksi Ainassaari
+# License: MIT
 
 
 
