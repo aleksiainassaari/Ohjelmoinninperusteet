@@ -259,6 +259,7 @@ def main():
 
 #luetaan data tiedostosta
 kulutustuotanto2025 =lue_data("2025.csv")
+print("Raportti luotu")
 
 
 while True:
